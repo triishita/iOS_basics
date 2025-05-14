@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2342EA012C85C0700096FCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA002C85C0700096FCEC /* AppDelegate.swift */; };
+		2342EA032C85C0700096FCEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA022C85C0700096FCEC /* SceneDelegate.swift */; };
+		2342EA052C85C0700096FCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA042C85C0700096FCEC /* ViewController.swift */; };
+		2342EA082C85C0700096FCEC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2342EA072C85C0700096FCEC /* Base */; };
+		2342EA0A2C85C0710096FCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2342EA092C85C0710096FCEC /* Assets.xcassets */; };
+		2342EA0D2C85C0710096FCEC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2342EA0C2C85C0710096FCEC /* Base */; };
+		2342EA182C85C0710096FCEC /* Zodiac_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA172C85C0710096FCEC /* Zodiac_ProjectTests.swift */; };
+		2342EA222C85C0710096FCEC /* Zodiac_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA212C85C0710096FCEC /* Zodiac_ProjectUITests.swift */; };
+		2342EA242C85C0710096FCEC /* Zodiac_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA232C85C0710096FCEC /* Zodiac_ProjectUITestsLaunchTests.swift */; };
+		2342EA332C85C5310096FCEC /* My Signs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342EA322C85C5310096FCEC /* My Signs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2342EA142C85C0710096FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2342E9F52C85C0700096FCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2342E9FC2C85C0700096FCEC;
+			remoteInfo = "Zodiac Project";
+		};
+		2342EA1E2C85C0710096FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2342E9F52C85C0700096FCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2342E9FC2C85C0700096FCEC;
+			remoteInfo = "Zodiac Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2342E9FD2C85C0700096FCEC /* Zodiac Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zodiac Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342EA002C85C0700096FCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2342EA022C85C0700096FCEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2342EA042C85C0700096FCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2342EA072C85C0700096FCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2342EA092C85C0710096FCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2342EA0C2C85C0710096FCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2342EA0E2C85C0710096FCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2342EA132C85C0710096FCEC /* Zodiac ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zodiac ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342EA172C85C0710096FCEC /* Zodiac_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_ProjectTests.swift; sourceTree = "<group>"; };
+		2342EA1D2C85C0710096FCEC /* Zodiac ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zodiac ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342EA212C85C0710096FCEC /* Zodiac_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_ProjectUITests.swift; sourceTree = "<group>"; };
+		2342EA232C85C0710096FCEC /* Zodiac_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2342EA322C85C5310096FCEC /* My Signs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Signs.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2342E9FA2C85C0700096FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA102C85C0710096FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA1A2C85C0710096FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2342E9F42C85C0700096FCEC = {
+			isa = PBXGroup;
+			children = (
+				2342E9FF2C85C0700096FCEC /* Zodiac Project */,
+				2342EA162C85C0710096FCEC /* Zodiac ProjectTests */,
+				2342EA202C85C0710096FCEC /* Zodiac ProjectUITests */,
+				2342E9FE2C85C0700096FCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2342E9FE2C85C0700096FCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2342E9FD2C85C0700096FCEC /* Zodiac Project.app */,
+				2342EA132C85C0710096FCEC /* Zodiac ProjectTests.xctest */,
+				2342EA1D2C85C0710096FCEC /* Zodiac ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2342E9FF2C85C0700096FCEC /* Zodiac Project */ = {
+			isa = PBXGroup;
+			children = (
+				2342EA002C85C0700096FCEC /* AppDelegate.swift */,
+				2342EA022C85C0700096FCEC /* SceneDelegate.swift */,
+				2342EA042C85C0700096FCEC /* ViewController.swift */,
+				2342EA062C85C0700096FCEC /* Main.storyboard */,
+				2342EA092C85C0710096FCEC /* Assets.xcassets */,
+				2342EA0B2C85C0710096FCEC /* LaunchScreen.storyboard */,
+				2342EA0E2C85C0710096FCEC /* Info.plist */,
+				2342EA322C85C5310096FCEC /* My Signs.swift */,
+			);
+			path = "Zodiac Project";
+			sourceTree = "<group>";
+		};
+		2342EA162C85C0710096FCEC /* Zodiac ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2342EA172C85C0710096FCEC /* Zodiac_ProjectTests.swift */,
+			);
+			path = "Zodiac ProjectTests";
+			sourceTree = "<group>";
+		};
+		2342EA202C85C0710096FCEC /* Zodiac ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2342EA212C85C0710096FCEC /* Zodiac_ProjectUITests.swift */,
+				2342EA232C85C0710096FCEC /* Zodiac_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Zodiac ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2342E9FC2C85C0700096FCEC /* Zodiac Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342EA272C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac Project" */;
+			buildPhases = (
+				2342E9F92C85C0700096FCEC /* Sources */,
+				2342E9FA2C85C0700096FCEC /* Frameworks */,
+				2342E9FB2C85C0700096FCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zodiac Project";
+			productName = "Zodiac Project";
+			productReference = 2342E9FD2C85C0700096FCEC /* Zodiac Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2342EA122C85C0710096FCEC /* Zodiac ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342EA2A2C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac ProjectTests" */;
+			buildPhases = (
+				2342EA0F2C85C0710096FCEC /* Sources */,
+				2342EA102C85C0710096FCEC /* Frameworks */,
+				2342EA112C85C0710096FCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2342EA152C85C0710096FCEC /* PBXTargetDependency */,
+			);
+			name = "Zodiac ProjectTests";
+			productName = "Zodiac ProjectTests";
+			productReference = 2342EA132C85C0710096FCEC /* Zodiac ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2342EA1C2C85C0710096FCEC /* Zodiac ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342EA2D2C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac ProjectUITests" */;
+			buildPhases = (
+				2342EA192C85C0710096FCEC /* Sources */,
+				2342EA1A2C85C0710096FCEC /* Frameworks */,
+				2342EA1B2C85C0710096FCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2342EA1F2C85C0710096FCEC /* PBXTargetDependency */,
+			);
+			name = "Zodiac ProjectUITests";
+			productName = "Zodiac ProjectUITests";
+			productReference = 2342EA1D2C85C0710096FCEC /* Zodiac ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2342E9F52C85C0700096FCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2342E9FC2C85C0700096FCEC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2342EA122C85C0710096FCEC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2342E9FC2C85C0700096FCEC;
+					};
+					2342EA1C2C85C0710096FCEC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2342E9FC2C85C0700096FCEC;
+					};
+				};
+			};
+			buildConfigurationList = 2342E9F82C85C0700096FCEC /* Build configuration list for PBXProject "Zodiac Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2342E9F42C85C0700096FCEC;
+			productRefGroup = 2342E9FE2C85C0700096FCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2342E9FC2C85C0700096FCEC /* Zodiac Project */,
+				2342EA122C85C0710096FCEC /* Zodiac ProjectTests */,
+				2342EA1C2C85C0710096FCEC /* Zodiac ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2342E9FB2C85C0700096FCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342EA0A2C85C0710096FCEC /* Assets.xcassets in Resources */,
+				2342EA0D2C85C0710096FCEC /* Base in Resources */,
+				2342EA082C85C0700096FCEC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA112C85C0710096FCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA1B2C85C0710096FCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2342E9F92C85C0700096FCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342EA052C85C0700096FCEC /* ViewController.swift in Sources */,
+				2342EA012C85C0700096FCEC /* AppDelegate.swift in Sources */,
+				2342EA032C85C0700096FCEC /* SceneDelegate.swift in Sources */,
+				2342EA332C85C5310096FCEC /* My Signs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA0F2C85C0710096FCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342EA182C85C0710096FCEC /* Zodiac_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342EA192C85C0710096FCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342EA242C85C0710096FCEC /* Zodiac_ProjectUITestsLaunchTests.swift in Sources */,
+				2342EA222C85C0710096FCEC /* Zodiac_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2342EA152C85C0710096FCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2342E9FC2C85C0700096FCEC /* Zodiac Project */;
+			targetProxy = 2342EA142C85C0710096FCEC /* PBXContainerItemProxy */;
+		};
+		2342EA1F2C85C0710096FCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2342E9FC2C85C0700096FCEC /* Zodiac Project */;
+			targetProxy = 2342EA1E2C85C0710096FCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2342EA062C85C0700096FCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2342EA072C85C0700096FCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2342EA0B2C85C0710096FCEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2342EA0C2C85C0710096FCEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2342EA252C85C0710096FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2342EA262C85C0710096FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2342EA282C85C0710096FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zodiac Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2342EA292C85C0710096FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zodiac Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2342EA2B2C85C0710096FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zodiac Project";
+			};
+			name = Debug;
+		};
+		2342EA2C2C85C0710096FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zodiac Project";
+			};
+			name = Release;
+		};
+		2342EA2E2C85C0710096FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zodiac Project";
+			};
+			name = Debug;
+		};
+		2342EA2F2C85C0710096FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Zodiac-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zodiac Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2342E9F82C85C0700096FCEC /* Build configuration list for PBXProject "Zodiac Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342EA252C85C0710096FCEC /* Debug */,
+				2342EA262C85C0710096FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342EA272C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342EA282C85C0710096FCEC /* Debug */,
+				2342EA292C85C0710096FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342EA2A2C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342EA2B2C85C0710096FCEC /* Debug */,
+				2342EA2C2C85C0710096FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342EA2D2C85C0710096FCEC /* Build configuration list for PBXNativeTarget "Zodiac ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342EA2E2C85C0710096FCEC /* Debug */,
+				2342EA2F2C85C0710096FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2342E9F52C85C0700096FCEC /* Project object */;
+}
